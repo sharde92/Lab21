@@ -9,9 +9,17 @@
 </head>
 <body>
     <!-- Form action determines the next URL path -->
-        <form action="/remainder">
+        <form action="summary">
             <p>
-            Name: <input name="mpg" />
+            Name: <input name="Name" />
+            </p>
+            <p>
+            Age: <input name="Age"/>
+           </p>
+           <p>
+           E-mail: <input type="email" name="Email"/>
+            <p>
+            Phone Number: <input type="tel" name="Phone_Number"/>
             </p>
             <p>
             <button type="submit">Go!</button>
