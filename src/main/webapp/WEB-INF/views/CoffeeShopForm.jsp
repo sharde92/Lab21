@@ -9,17 +9,23 @@
 </head>
 <body>
     <!-- Form action determines the next URL path -->
-        <form action="summary">
+        <form action="/summary">
             <p>
-            Name: <input name="Name" />
+            First Name: <input name="firstname" />
             </p>
             <p>
-            Age: <input name="Age"/>
+            Last Name: <input name="lastname" />
+            </p>
+            <p>
+            Password: <input name="password" type="password" />
+            </p>
+            <p>
+            Age: <input name="age"/>
            </p>
            <p>
-           E-mail: <input type="email" name="Email"/>
+           E-mail: <input type="email" name="email"/>
             <p>
-            Phone Number: <input type="tel" name="Phone_Number"/>
+            Phone Number: <input type="tel" name="phone_Number"/>
             </p>
             <p>
             <button type="submit">Go!</button>
