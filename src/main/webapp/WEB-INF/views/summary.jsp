@@ -8,14 +8,25 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<h1>Foods</h1>
-<img src="/images/Orange-Fruit-Pieces.jpg"/> </h1>
-<h1> This is the summary </h1>
+<h1>Welcome to Java Bean!</h1>
+<h1> User Summary: </h1>
+<p>
 First Name : ${ firstname }
+</p>
+<p>
 Last Name: ${ lastname }
+</p>
+<p>
 Password: ${ password }
+</p>
+<p>
 Age : ${ age }
+</p>
+<p>
 Email: ${email}
+</p>
+<p>
 Phone Number: ${phone_number}
+</p>
 </body>
 </html>

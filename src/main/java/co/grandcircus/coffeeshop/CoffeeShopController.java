@@ -70,34 +70,7 @@ public class CoffeeShopController {
 
 		return mav;
 	}
-//	@RequestMapping("/items")
-////	public ModelAndView listCoffee(@RequestParam(value="category", required=false) String category) {
-////		ModelAndView mav = new ModelAndView("list-items");
-////		if (category != null && !category.isEmpty()) {
-////			mav.addObject("items", CoffeeShopService.getCoffeeInCategory(category));
-////			mav.addObject("category", category);
-////		} else {
-////			mav.addObject("items", CoffeeShopService.getAllCoffee());
-////		}
-////		return mav;
-////	}
-//	
-//	@RequestMapping("/add-items")
-//	public ModelAndView showCofeeForm() {
-//		return new ModelAndView("items-form");
-//	}
-//	
-//	// Two controllers handling the same URL path, but this one handles the POST
-//	// which is triggered when the form submits.
-//	@RequestMapping(value="/add-items", method=RequestMethod.POST)
-//	// When a POJO (Java Bean) is provided as a parameter, Spring MVC automatically
-//	// fills in all the properties from the request params!
-//	public ModelAndView submitCoffeeForm(User items) {
-//		CoffeeShopService.addCoffee(items);
-//		// using a view name that starts with "redirect:" skips the JSP and instead
-//		// redirects the browser to the given URL, effectively redirecting to another
-//		// controller.
-//		return new ModelAndView("redirect:/items");
-//	}
+// A shortcut to add one item to ModelAndView is: return new ModelAndView("list", "rooms", leListOfRooms);
+
 }
 

@@ -21,6 +21,11 @@ import co.grandcircus.coffeeshop.Coffee;
 			return jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(Coffee.class));
 		}
 
+		public static void create(Coffee coffee) {
+			// TODO Auto-generated method stub
+			
+		}
+
 	}
 	
 
